@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboad</title>
+    <link rel="stylesheet" href="sidebar.css">
+    <link rel="shortcut icon" href="image/icons8-flower-96.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="sidebar">
+        <div class="container">
+            <div class="logo">
+                <img src="image/icons8-flower-96.png" alt="">
+                <h3>Admin</h3>
+            </div>
+            <div class="list">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="image/icons8-dashboard-layout-100.png" alt="Dashboad">
+                            <span>Dashborad</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="image/icons8-new-product-100.png" alt="product">
+                            <span>Product</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="image/icons8-message-100.png" alt="message">
+                            <span>Message</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="image/icons8-user-100.png" alt="user">
+                            <span>Customer</span>
+                        </a>
+                    </li>
+                    <hr>
+                    <li>
+                        <a href="#">
+                            <img src="image/icons8-setting-100.png" alt="setting">
+                            <span>Setting</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="image/icons8-sign-out-100.png" alt="sign-out">
+                            <span>Logout</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="menu-toggle" onclick="toggleSidebar()">☰</div>
+
+    <script>
+        function toggleSidebar() {
+            document.querySelector('.sidebar').classList.toggle('active');
+        }
+    </script>
+</body>
+
+</html>
